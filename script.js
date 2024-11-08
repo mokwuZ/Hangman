@@ -28,7 +28,6 @@ function searchLetter() {
             <h7 id="health">You have ${healthPoints} lives left</h7>
         `
     } 
-    console.log(numLettersFound)
     if (healthPoints <= 0) {
         document.getElementById('health').innerHTML = `
             <h7 id="health">Game over!</h7>
