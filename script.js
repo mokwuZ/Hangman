@@ -2,8 +2,7 @@ const secretWords = ["mere", "jazz", "electronice", "elefant", "pamant"]
 let indexWord = Math.floor(Math.random() * secretWords.length)
 let healthPoints = 7
 let numLettersFound = 0
-console.log(secretWords[indexWord])
-console.log(secretWords[indexWord].length)
+
 document.getElementById('Word_area').innerHTML += `
     <h7 id="health">You have ${healthPoints} lives left</h7><br>
 `
